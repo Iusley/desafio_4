@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    --azul_escuro: hsl(217, 54%, 11%); 
+    --azul_escuro_card:hsl(216, 50%, 16%); 
+    --azul_escuro_linha: hsl(215, 32%, 27%); 
+    --branco: hsl(0, 0%, 100%); 
+    --azul_claro: hsl(215, 51%, 70%); 
+    --azul_céu: hsl(178, 100%, 50%);
+}
+
+body {
+    background-color: var(--azul_escuro);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.conteudo {
+    background-color: var(--azul_escuro_card);
+    font-family: 'Outfit', sans-serif;
+    max-width: 280px;
+    padding: 1.3rem; 
+    border-radius: 0.8rem; 
+}
+
+.conteudo_imagem {
+    max-height: 280px;
+    border-radius: 0.8rem; 
+    display: inline-block;
+    position: relative;
+
+}
+
+.conteudo_titulo {
+    padding: 1.5rem 0 1.5rem 0;
+    color: var(--branco);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.conteudo_texto {
+    color: var(--azul_claro);
+    line-height: 1.3rem;
+    font-size: 17px;
+    padding-bottom: 1rem;
+    font-weight: 300;
+}
+
+.conteudo_informações {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo_informações_descrição {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.informações_eth {
+    color: var(--azul_céu);
+}
+
+.informações_tempo {
+    color: var(--azul_claro);
+}
+
+.icone_eth {
+    content: url(./images/icon-ethereum.svg);
+} 
+
+.icone_relógio {
+    content: url(./images/icon-clock.svg);
+}
+
+hr {                                 
+    border-color: var(--azul_escuro_linha);
+    height: 0.1px;
+}
+
+.conteudo_criador {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.imagem_direitos {
+    max-width: 40px;
+}
+
+.conteudo_direitos {
+    color: var(--azul_claro);
+}
+
+.nome {
+    color: var(--branco);
+}
+
+.nome:hover {
+    color: var(--azul_céu);
+}
+
+.conteudo_titulo:hover {
+    color: var(--azul_céu);
+}
+
+.conteudo_imagem:hover {
+    
+}
+
