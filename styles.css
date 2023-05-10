@@ -25,10 +25,11 @@ body {
     max-width: 17.5rem;
     padding: 1.3rem; 
     border-radius: 1rem; 
+    height: 32rem;
 }
 
 .ether {
-    max-height: 21.875rem;
+    max-height: 19rem;
     width: 92%;
     height: auto;
     border-radius: 1rem;
@@ -38,9 +39,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -20rem;
+    margin-top: 0rem;
     position: absolute;
-    margin-left: -1.3rem;
 }
 
 .conteudo_titulo {
@@ -48,6 +48,7 @@ body {
     color: var(--branco);
     font-size: 20px;
     font-weight: 600;
+    padding-top: 19.5rem;
 }
 
 .conteudo_texto {
