@@ -16,18 +16,19 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    
 }
 
 .conteudo {
     background-color: var(--azul_escuro_card);
     font-family: 'Outfit', sans-serif;
-    max-width: 280px;
+    max-width: 17.5rem;
     padding: 1.3rem; 
     border-radius: 1rem; 
 }
 
 .ether {
-    max-height: 350px;
+    max-height: 21.875rem;
     width: 92%;
     height: auto;
     border-radius: 1rem;
@@ -53,7 +54,7 @@ body {
     color: var(--azul_claro);
     line-height: 1.3rem;
     font-size: 17px;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     font-weight: 300;
 }
 
@@ -94,10 +95,14 @@ hr {
     display: flex;
     align-items: center;
     gap: 15px;
+    padding-top: 0.5rem;
 }
 
 .imagem_direitos {
-    max-width: 40px;
+    width: 12%;
+    height: auto;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
 }
 
 .conteudo_direitos {
