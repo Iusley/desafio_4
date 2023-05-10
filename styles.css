@@ -23,15 +23,23 @@ body {
     font-family: 'Outfit', sans-serif;
     max-width: 280px;
     padding: 1.3rem; 
-    border-radius: 0.8rem; 
+    border-radius: 1rem; 
 }
 
-.conteudo_imagem {
-    max-height: 280px;
-    border-radius: 0.8rem; 
-    display: inline-block;
-    position: relative;
-
+.ether {
+    max-height: 350px;
+    width: 92%;
+    height: auto;
+    border-radius: 1rem;
+}
+  
+.eth-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20rem;
+    position: absolute;
+    margin-left: -1.3rem;
 }
 
 .conteudo_titulo {
@@ -108,7 +116,44 @@ hr {
     color: var(--azul_céu);
 }
 
-.conteudo_imagem:hover {
-    
+.main-img-anchor:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 92%;
+    height: 100%;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 1rem;
+    opacity: 0.5;
 }
+
+.hover-img {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+}
+
+.eth-img:hover .hover-img {
+    display: block;
+}
+  
+.hover-img-anchor:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 92%;
+    height: 100%;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 1rem;
+    opacity: 0.5;
+}
+
+
+
+  
+
 
